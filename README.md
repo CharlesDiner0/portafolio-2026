@@ -163,14 +163,18 @@ El carrusel `components/hero-carousel.js` es una implementación específica del
 
 | Recurso | Procedencia y atribución |
 | --- | --- |
-| Diseño, fotografías de proyectos y contenidos personales | Materiales reunidos para el portafolio de Carlos Mella. Confirmar autoría de cada fotografía y permisos correspondientes antes de la entrega. |
-| **Archivo Black, Inter y DM Mono** | Tipografías servidas mediante Google Fonts. Consultar sus respectivas fichas y condiciones de licencia. |
-| **Slide Up Reveal** | Propuesta de @satoriui en 21st.dev, adaptada a JavaScript para este sitio; licencia indicada en la ficha: MIT. |
-| **MediaPipe y OpenCV** | Tecnologías utilizadas por el proyecto DOS REALIDADES. Revisar créditos y dependencias en su propio repositorio. |
-| **Tacto / MQTT** | Biblioteca e infraestructura de conexión basadas en [Tacto, de Felipe Roa y Santiago Gaete](https://github.com/fefeliperoar/tacto), según el README del proyecto T07. |
-| **Banco sonoro de T07** | Ocho archivos WAV sintetizados para el proyecto A 12 PASOS DE LA GLORIA, descritos en su [README](https://github.com/CharlesDiner0/tacto). Allí se declaran como originales y publicados bajo CC0 1.0. |
+| **Fotografías de SHIGOTO y 001** | Realizadas por **@brial**, fotógrafo chileno (Instagram). Utilizadas en este portafolio **con autorización del fotógrafo**. La autorización corresponde a este uso y no implica que las imágenes tengan una licencia de libre reutilización. |
+| **Fotografías personales de Japón y del estadio** | Fotografías tomadas por **Carlos Mella**. |
+| **Sonidos de PULSO 90 (T06)** | Ocho muestras procedentes de **Freesound**, editadas para el proyecto. Los nombres de los autores, enlaces a las muestras y licencias **declaradas CC0 1.0** están documentados individualmente en el [README de PULSO 90](https://github.com/CharlesDiner0/oir-la-luz). La licencia de cada muestra debe contrastarse con su ficha original. |
+| **Sonidos de A 12 PASOS DE LA GLORIA (T07)** | Ocho archivos WAV descritos en el [README de T07](https://github.com/CharlesDiner0/tacto) como **síntesis original realizada con Python/NumPy**, declarados bajo CC0 1.0. No se atribuyen a Freesound porque la documentación actual del proyecto no lo indica; esta procedencia corresponde a lo registrado allí. |
+| **Archivo Black, Inter y DM Mono** | Tipografías utilizadas a través de Google Fonts. Consultar las fichas y condiciones de licencia correspondientes. |
+| **Slide Up Reveal** | Propuesta de **@satoriui** en **21st.dev**, adaptada a JavaScript sin framework para este sitio. Licencia indicada en la referencia utilizada: MIT (verificar sus condiciones para la versión concreta). |
+| **MediaPipe y OpenCV** | Herramientas utilizadas en DOS REALIDADES; consultar sus dependencias y créditos en el repositorio de ese proyecto. |
+| **Tacto / MQTT** | Biblioteca e infraestructura de conexión basadas en [Tacto, de Felipe Roa y Santiago Gaete](https://github.com/fefeliperoar/tacto), según la documentación del proyecto T07. |
 
-**Por completar con datos propios:** créditos del registro fotográfico, colaboraciones, sonidos o recursos adicionales de T03/T06, y licencias específicas de materiales de terceros que se hayan incorporado. No asumir que todo el contenido es de autoría propia sin comprobarlo.
+La autorización de @brial permite el uso indicado en este portafolio y no transfiere la autoría de sus fotografías. Los créditos de herramientas, muestras y recursos de terceros deben mantenerse también en los proyectos donde se utilizan.
+
+**Verificaciones aún necesarias:** confirmar en Freesound las licencias de cada una de las ocho muestras citadas por PULSO 90; comprobar condiciones específicas de tipografías y componente; y revisar cualquier recurso adicional de terceros en los repositorios de los proyectos.
 
 ### Uso de inteligencia artificial
 
@@ -204,7 +208,7 @@ Al redactarlo, abordar en primera persona:
 
 - [ ] Incorporar los **videos de funcionamiento** exigidos en las cinco subpáginas; para los proyectos de indumentaria, utilizar el registro audiovisual que corresponda.
 - [ ] Completar la **reflexión personal** del apartado anterior, escrita por el estudiante sin IA.
-- [ ] Confirmar créditos y licencias de fotografías, tipografías, sonidos y colaboraciones.
+- [ ] Créditos fotográficos incorporados y autorización de @brial confirmada; verificar licencias de las muestras de Freesound, tipografías y componentes, y cualquier colaboración adicional.
 - [ ] Revisar los README, la información **About**, los Topics y las páginas publicadas de los repositorios de cada trabajo del semestre, además del perfil de GitHub.
 
 **Estado del sitio:** portafolio publicado; contenido y enlaces revisados por el autor. La documentación final aún requiere las verificaciones indicadas.
