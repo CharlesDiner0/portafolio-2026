@@ -123,3 +123,77 @@ html{scroll-padding-top:76px}
 .hero-controls .mono{padding:0 9px;white-space:nowrap}
 @media(max-width:630px){.hero-visual-bottom{left:9px;right:9px;bottom:9px;align-items:flex-end;gap:8px}.hero-carousel .visual-tag{padding:9px;max-width:65%}.hero-carousel .visual-tag a{font-size:clamp(13px,4vw,18px)}.hero-carousel .visual-tag small{font-size:8px}.hero-controls{gap:1px;padding:3px}.hero-controls button{width:30px;height:34px;font-size:16px}.hero-controls .mono{font-size:9px;padding:0 4px}.hero-carousel .hero-slide.fashion img{object-position:center 32%}}
 @media(prefers-reduced-motion:reduce){.hero-slide{transition:none}}
+
+/* V6.1 — mobile layout repaired. Overrides legacy V3 card spans. */
+@media (max-width: 800px) {
+  .project-grid { display:grid; grid-template-columns:minmax(0,1fr); gap:18px; width:100%; min-width:0; }
+  .project-grid > .project-card,
+  .project-grid > .project-card:nth-child(1),
+  .project-grid > .project-card:nth-child(2),
+  .project-grid > .project-card:nth-child(3),
+  .project-grid > .project-card:nth-child(4),
+  .project-grid > .project-card:nth-child(5),
+  .project-grid[data-view=digital] > .project-card:nth-child(1),
+  .project-grid[data-view=material] > .project-card[data-type=material] {
+    grid-column:1 / -1;grid-row:auto;min-width:0;width:100%;
+  }
+  .project-grid > .project-card:nth-child(1) {display:flex;flex-direction:column;}
+  .project-grid > .project-card[hidden] {display:none!important;}
+  .project-grid .project-image,
+  .project-grid .project-card:nth-child(1) .project-image {
+    width:100%;height:auto;min-height:0;aspect-ratio:1.7;overflow:hidden;
+  }
+  .project-grid .project-image img,
+  .project-grid .project-card:nth-child(1) .project-image img {
+    display:block;width:100%;height:100%;object-fit:contain;object-position:center;
+  }
+  .project-grid .project-card[data-type=material] .project-image {aspect-ratio:1.35;}
+  .project-grid .project-card[data-type=material] .project-image img {object-fit:cover;object-position:center 23%;}
+  .project-grid .project-info,
+  .project-grid .project-card:nth-child(1) .project-info {
+    box-sizing:border-box;width:100%;min-width:0;min-height:0;
+    padding:20px;border-left:0;border-top:1px solid var(--line);
+  }
+  .project-grid .project-info h3,
+  .project-grid .project-card:nth-child(1) .project-info h3 {
+    font-size:clamp(26px,6.8vw,44px);line-height:1.05;letter-spacing:-.05em;
+    overflow-wrap:break-word;word-break:normal;
+  }
+  .project-grid .project-info .mono {font-size:10px;overflow-wrap:anywhere;}
+  .project-grid .project-info p:not(.mono) {font-size:14px;line-height:1.6;overflow-wrap:break-word;}
+  .project-grid .card-actions {gap:14px;align-items:center;}
+}
+@media (max-width:600px) {
+  .wrap{width:calc(100% - 32px);max-width:100%;}
+  .site-nav{gap:9px;padding:12px 16px;flex-wrap:wrap;}
+  .site-nav nav{gap:12px;flex-wrap:wrap;}
+  .site-nav nav a{font-size:10px;}
+  .topline{flex-wrap:wrap;row-gap:4px;}
+  .hero-name{font-size:clamp(48px,15.7vw,92px);}
+  .hero-name .second{margin-left:0;}
+  .hero-bottom{grid-template-columns:minmax(0,1fr);}
+  .section-head{align-items:flex-start;gap:10px;}
+  .section-head h2{font-size:clamp(34px,11vw,68px);}
+  .filters button{padding:10px 12px;}
+  .work{padding-top:50px;}
+  .hero-carousel{height:clamp(245px,75vw,390px);}
+  .hero-visual-bottom{flex-direction:column;align-items:stretch;}
+  .hero-carousel .visual-tag{max-width:100%;width:fit-content;}
+  .hero-carousel .visual-tag a{font-size:clamp(14px,4vw,21px);}
+  .hero-controls{width:fit-content;align-self:flex-end;}
+  .hero-carousel .hero-slide.digital img{object-fit:contain;}
+  .hero-carousel .hero-slide.fashion img{object-fit:cover;}
+  .project-grid .project-info,
+  .project-grid .project-card:nth-child(1) .project-info{padding:18px;}
+  .project-grid .project-info h3,
+  .project-grid .project-card:nth-child(1) .project-info h3{font-size:clamp(27px,8vw,39px);}
+  .card-actions{gap:12px;}
+  .card-actions a,.card-actions button{font-size:10px;}
+  .about-layout,.about-interests,.record-section{min-width:0;}
+}
+@media(max-width:360px){
+  .site-nav nav{gap:9px;}
+  .site-nav nav a{font-size:9px;}
+  .hero-carousel .hero-controls button{width:31px;}
+  .project-grid .project-info h3,.project-grid .project-card:nth-child(1) .project-info h3{font-size:26px;}
+}
