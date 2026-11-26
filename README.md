@@ -178,7 +178,7 @@ La autorización de @brial permite el uso indicado en este portafolio y no trans
 
 ### Uso de inteligencia artificial
 
-Se utilizó asistencia de ChatGPT para desarrollar y revisar la estructura del portafolio, generar y modificar HTML, CSS y JavaScript, incorporar la portada dinámica, solucionar problemas de publicación y ayudar a editar textos descriptivos. Los resultados fueron revisados mediante pruebas del sitio en computador y teléfono. Esta declaración corresponde al trabajo realizado en el **portafolio**; debe ampliarse con el uso real de IA que se haya hecho durante el resto del semestre, si corresponde.
+Se utilizó asistencia de ChatGPT para desarrollar y revisar la estructura del portafolio, generar y modificar HTML, CSS y JavaScript, incorporar la portada dinámica, solucionar problemas de publicación y ayudar a editar textos descriptivos. Los resultados fueron revisados mediante pruebas del sitio en computador y teléfono. La reflexión del apartado 8, redactada por el estudiante, también documenta su utilización de Antigravity, ChatGPT y Claude durante el semestre.
 
 ## 7. Cómo ejecutar y verificar el sitio
 
@@ -190,25 +190,19 @@ python -m http.server 8000
 
 Después, abre `http://localhost:8000/`.
 
-Para verificar la entrega: recorrer la landing, los filtros y las vistas rápidas; entrar a **Sobre mí**; abrir las cinco subpáginas; seguir los enlaces hacia los tres proyectos digitales y comprobar la visualización en un teléfono. Los registros audiovisuales deben incorporarse en las páginas de los proyectos según la pauta del examen.
+Para verificar la entrega: recorrer la landing, los filtros y las vistas rápidas; entrar a **Sobre mí**; abrir las cinco subpáginas; seguir los enlaces hacia los tres proyectos digitales y comprobar la visualización en un teléfono. Los registros audiovisuales de DOS REALIDADES y PULSO 90 se encuentran integrados; SHIGOTO y 001 presentan registros fotográficos. Queda por incorporar el video de T07 y confirmar si la pauta acepta registros fotográficos para proyectos de indumentaria.
 
-## 8. Reflexión personal del semestre — por escribir
+## 8. Reflexión personal del semestre
 
-> **Este apartado debe ser redactado por Carlos Mella con sus propias palabras y sin IA, tal como exige el examen.** No se incluye aquí una reflexión generada automáticamente.
-
-Al redactarlo, abordar en primera persona:
-
-- Qué aprendiste de HTML, CSS, JavaScript, interacción, imagen, sonido y MQTT.
-- Qué problemas concretos encontraste y cómo los resolviste.
-- Cómo cambió tu forma de entender el diseño al trabajar con tecnologías digitales.
-- Qué decisiones propias tomaste en los proyectos y qué mejorarías.
-- Qué herramientas, apoyos y recursos externos utilizaste, incluida la IA durante el semestre.
+En cuanto a reflexión sobre este semestre me gustaría partir agradeciendo al equipo docente, agradecerle de todo corazón al profesor Felipe y al ayudante Santiago, gracias por la disposición, por la entrega clase a clase y por la forma de en mí caso que no conocía nada de nada, introducirme a nuevos conocimientos de forma interactiva y amigable. No me gustaría decir que aprendí todo sobre HTML o sobre ese tipo de archivos pero el conocimiento que me llevo desde esta asignatura es inmenso, conocimiento que antes no tenía idea que me despertaba interés. Los únicos problemas que tuve creo que fueron más por el lado personal y de organización de tiempos, pese a todo logré entregar la mayoría de trabajos y siento que me desenvolví de buena manera en ellos. Mi forma de comprender el diseño cambió en 180°, no tenía idea de que el diseño podía llegar a comprender herramientas tan complejas como las que hemos desarrollado y que estas fuesen desarrolladas por nosotros mismos, los estudiantes. Me gustó mucho tomar las decisiones creativas y de contenido en todos los proyectos, agradezco mucho la libertad que nos entregaron los docentes y la retroalimentación que nos daban a estos, me gustaría mejorar un poco más el apartado gráfico de mis trabajos, me gustaría que todos siguieran una misma línea editorial. Las herramientas que más utilicé este semestre fueron GitHub que no la conocía más que de nombre y siento que fue abrir los ojos a un mundo nuevo, utilicé mucho la Inteligencia Artificial de Antigravity, ChatGPT y Claude, todas para programar los códigos o hacer las correcciones de estos, siento que uno de los mayores aprendizajes que me llevo es que es posible trabajar junto con la IA sin depender de ella, sino más bien aprovechando esta y usándola como una herramienta.
 
 ## 9. Verificaciones pendientes antes del examen
 
-- [ ] Incorporar los **videos de funcionamiento** exigidos en las cinco subpáginas; para los proyectos de indumentaria, utilizar el registro audiovisual que corresponda.
-- [ ] Completar la **reflexión personal** del apartado anterior, escrita por el estudiante sin IA.
+- [x] Incorporar los videos de funcionamiento de DOS REALIDADES y PULSO 90.
+- [x] Incorporar registros fotográficos de SHIGOTO y 001 (autoría de @brial, uso autorizado).
+- [ ] Incorporar un video de demostración de A 12 PASOS DE LA GLORIA y confirmar con la pauta o docentes si el registro fotográfico es suficiente para los proyectos de indumentaria.
+- [x] Incorporar la **reflexión personal** escrita por el estudiante.
 - [ ] Créditos fotográficos incorporados y autorización de @brial confirmada; verificar licencias de las muestras de Freesound, tipografías y componentes, y cualquier colaboración adicional.
 - [ ] Revisar los README, la información **About**, los Topics y las páginas publicadas de los repositorios de cada trabajo del semestre, además del perfil de GitHub.
 
-**Estado del sitio:** portafolio publicado; contenido y enlaces revisados por el autor. La documentación final aún requiere las verificaciones indicadas.
+**Estado del sitio:** portafolio publicado; contenido y enlaces revisados por el autor. La reflexión personal y créditos fotográficos están incorporados; quedan las verificaciones indicadas.
